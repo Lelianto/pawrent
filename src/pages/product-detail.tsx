@@ -1,6 +1,11 @@
+import { useRouter } from "next/router";
 import Layout from "../components/Layout";
 
 const ProductDetail = () => {
+  const router = useRouter();
+  const handleRouting = () => {
+    router.push("/checkout");
+  };
   return (
     <Layout title="Pawrent">
       <div className="px-20 py-8">
@@ -67,6 +72,7 @@ const ProductDetail = () => {
               <button
                 type="button"
                 className="w-full border-2 border-green-500 rounded-md text-green-500 font-bold hover:shadow-lg"
+                onClick={handleRouting}
               >
                 Beli
               </button>
