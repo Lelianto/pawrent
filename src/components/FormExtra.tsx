@@ -12,7 +12,7 @@ export default function FormExtra() {
           htmlFor="remember-me"
           className="ml-2 block text-sm text-gray-900"
         >
-          Remember me
+          Ingat saya
         </label>
       </div>
 
@@ -21,7 +21,7 @@ export default function FormExtra() {
           href="#"
           className="font-medium text-purple-600 hover:text-purple-500"
         >
-          Forgot your password?
+          Lupa kata sandi?
         </a>
       </div>
     </div>

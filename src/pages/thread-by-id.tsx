@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 const ThreadById = () => {
   return (
     <Layout title="Pawrent">
-      <div className="px-10 my-8">
+      <div className="px-20 py-8">
         <div className="grid grid-cols-4 border-b border-gray mb-4">
           <div className="flex items-center my-4">
             <img

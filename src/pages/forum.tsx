@@ -8,7 +8,7 @@ const ForumPage = () => {
   const [showModal, setShowModal] = useState(false);
   return (
     <Layout title="Pawrent">
-      <div className="px-4 my-8">
+      <div className="px-20 py-8">
         <div className="border border-gray rounded-lg p-4">
           <button
             className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-4"

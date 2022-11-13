@@ -7,7 +7,7 @@ const ForumById = () => {
   const [showModal, setShowModal] = useState(false);
   return (
     <Layout title="Pawrent">
-      <div className="px-4 my-8">
+      <div className="px-20 py-8">
         <div className="border border-gray rounded-lg">
           <div className="p-4">
             <div

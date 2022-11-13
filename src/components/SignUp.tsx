@@ -42,7 +42,7 @@ export default function Signup() {
             customClass={null}
           />
         ))}
-        <FormAction handleSubmit={handleSubmit} text="Signup" />
+        <FormAction handleSubmit={handleSubmit} text="Daftar" />
       </div>
     </form>
   );

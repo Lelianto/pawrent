@@ -1,23 +1,23 @@
 const loginFields=[
     {
-        labelText:"Email address",
+        labelText:"Alamat Email",
         labelFor:"email-address",
         id:"email-address",
         name:"email",
         type:"email",
         autoComplete:"email",
         isRequired:true,
-        placeholder:"Email address"   
+        placeholder:"Alamat Email"   
     },
     {
-        labelText:"Password",
+        labelText:"Kata Sandi",
         labelFor:"password",
         id:"password",
         name:"password",
         type:"password",
         autoComplete:"current-password",
         isRequired:true,
-        placeholder:"Password"   
+        placeholder:"Kata Sandi"   
     }
 ]
 
@@ -33,34 +33,34 @@ const signupFields=[
         placeholder:"Username"   
     },
     {
-        labelText:"Email address",
+        labelText:"Alamat Email",
         labelFor:"email-address",
         id:"email-address",
         name:"email",
         type:"email",
         autoComplete:"email",
         isRequired:true,
-        placeholder:"Email address"   
+        placeholder:"Alamat Email"   
     },
     {
-        labelText:"Password",
+        labelText:"Kata Sandi",
         labelFor:"password",
         id:"password",
         name:"password",
         type:"password",
         autoComplete:"current-password",
         isRequired:true,
-        placeholder:"Password"   
+        placeholder:"Kata Sandi"   
     },
     {
-        labelText:"Confirm Password",
+        labelText:"Konfirmasi Kata Sandi",
         labelFor:"confirm-password",
         id:"confirm-password",
         name:"confirm-password",
         type:"password",
         autoComplete:"confirm-password",
         isRequired:true,
-        placeholder:"Confirm Password"   
+        placeholder:"Konfirmasi Kata Sandi"   
     }
 ]
 

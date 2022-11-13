@@ -14,7 +14,7 @@ const ThreadCard: FC<IThreadCard> = ({
   return (
     <div
       onClick={() => router.push("/thread-by-id")}
-      className="max-w-sm rounded-lg overflow-hidden shadow-lg hover:shadow-xl"
+      className="max-w-sm rounded-lg overflow-hidden shadow-lg hover:shadow-xl cursor-pointer"
     >
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2 cursor-pointer">{title}</div>
