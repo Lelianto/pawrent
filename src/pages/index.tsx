@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ForumSection from "../components/ForumSection";
 import Layout from "../components/Layout";
 
 const IndexPage = () => (
@@ -39,6 +40,7 @@ const IndexPage = () => (
         </Link>
       </div>
     </div>
+    <ForumSection />
   </Layout>
 );
 
