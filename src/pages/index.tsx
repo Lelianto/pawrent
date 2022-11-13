@@ -10,8 +10,8 @@ const IndexPage = () => (
         backgroundRepeat: "no-repeat",
         backgroundPosition: "bottom",
         backgroundSize: "cover",
+        minHeight: "100vh",
       }}
-      className="min-h-[100vh]"
     >
       <div className="text-center text-4xl mb-28 pt-28 font-bold">
         A Pet Parents Ecosystem SuperApp
