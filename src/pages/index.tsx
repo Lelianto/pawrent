@@ -33,7 +33,7 @@ const IndexPage = () => (
             <div className="font-bold text-xl mb-4">Pet Shop</div>
             <div className="text-gray-400 text-sm">
               Pet Shop termurah, dan terbaik di sekitarmu. Sebuah pet shop
-              biasanya memungkinkan pelanggan untuk melakukan jual beli hewan
+              biasanya memungkinkan pelanggan untuk membeli kebutuhan hewan
               peliharaan.
             </div>
           </div>

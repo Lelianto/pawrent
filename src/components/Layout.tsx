@@ -28,6 +28,12 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
         <div className="flex flex-end">
           <Link
             className="mr-8 bg-sky-700 py-2 px-4 rounded-md flex flex-col justify-center"
+            href="/manage-pet-shop"
+          >
+            Pet Shop Dashboard
+          </Link>
+          <Link
+            className="mr-8 bg-sky-700 py-2 px-4 rounded-md flex flex-col justify-center"
             href="/forum"
           >
             Forum
