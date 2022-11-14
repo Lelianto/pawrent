@@ -1,6 +1,34 @@
 import { useState } from "react";
 import ForumCard from "./ForumCard";
 import Modal from "./Modal";
+import { IForumCard } from "./ForumCard";
+
+export const forums: IForumCard[] = [
+  {
+    name: "Komunitas Pecinta Anjing",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
+    backgroundImage: "url('/pawrent-1.jpeg')",
+  },
+  {
+    name: "Forum Jual Beli Anjing",
+    description:
+      "Defining routes by using predefined paths is not always enough for complex applications. Defining routes by using predefined paths is not always enough for complex applications.",
+    backgroundImage: "url('/pawrent-3.webp')",
+  },
+  {
+    name: "Tim Diskusi Alaskan Malamut",
+    description:
+      "Lorem ipsum dolor sit amet, Defining routes by using predefined paths is not always enough for complex applications! Maiores et perferendis eaque, exercitationem praesentium nihil.",
+    backgroundImage: "url('/pawrent-3.webp')",
+  },
+  {
+    name: "Komunitas Pawrent Alaskan",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
+    backgroundImage: "url('/pawrent-1.jpeg')",
+  },
+];
 
 const ForumSection = () => {
   const [showModal, setShowModal] = useState(false);
@@ -18,18 +46,11 @@ const ForumSection = () => {
           <div className="mt-4">
             {/* Card Section */}
             <div className="grid grid-cols-1 md:grid-cols-2 md:gap-4">
-              <div>
-                <ForumCard />
-              </div>
-              <div>
-                <ForumCard />
-              </div>
-              <div>
-                <ForumCard />
-              </div>
-              <div>
-                <ForumCard />
-              </div>
+              {forums.map((forum) => (
+                <div>
+                  <ForumCard {...forum} />
+                </div>
+              ))}
             </div>
           </div>
         </div>
